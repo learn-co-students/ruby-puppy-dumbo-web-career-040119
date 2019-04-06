@@ -17,8 +17,9 @@ class Dog
 
    def self.all
       @@all.map do |dog|
+        #your attr_accessor is your setter and getter which contain your @name... That's why you can just put @name 
         puts dog.name
-      end 
+      end
    end
 
 end
